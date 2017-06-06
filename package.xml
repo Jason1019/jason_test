@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package>
+  <name>jason_test</name>
+  <version>1.0.1</version>
+
+  <description>
+  The laser mapping packing including camera-lidar fusion.
+  </description>
+
+  <maintainer email="jason.kim@mobiltech.io">Jason Kim</maintainer>
+
+  <license>TODO</license>
+
+  <author email="jason.kim@mobiltech.io">Jason Kim</author>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>image_transport</build_depend>
+  
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>nav_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>cv_bridge</run_depend>
+  <run_depend>image_transport</run_depend>
+
+</package>
